@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_out_down.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_out_down.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_error_animation.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_error_animation.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_close.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_fab_in.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_error_animation.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_error_animation.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_open.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_open.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_close.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_out_down.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_close.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_fab_out.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_close.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_open.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_close.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_open.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_in_up.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_open.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_in_up.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_bottom_sheet_dialog_close.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/bundles/debug/res/anim/bt_bottom_sheet_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_slide_in_up.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/bundles/debug/res/anim/bt_slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_error_animation.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_error_animation.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/bt_expiration_date_dialog_open.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.braintreepayments/card-form/3.0.2/res/anim/bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_top.xml"
+    }
+]

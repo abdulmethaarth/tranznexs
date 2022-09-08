@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50">
+
+        <RelativeLayout
+            android:id="@+id/layout_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navigation_arrow"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txt_all_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip_details"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/font_16"
+            android:textColor="@color/black"/>
+
+        <!--<RelativeLayout
+            android:id="@+id/layout_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_15"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/filter_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_15"/>
+        </RelativeLayout>-->
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_light"/>
+    <LinearLayout
+        android:id="@+id/layout_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_5"
+        android:layout_below="@+id/layout_header"
+        android:layout_above="@+id/newRide">
+
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_all_trip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="none"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_no_recourd_found"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_above="@+id/newRide"
+        android:visibility="gone"
+        android:layout_below="@+id/layout_header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="No Record Found"
+            android:textSize="@dimen/font_16"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/newRide"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@drawable/rounded_border"
+        android:layout_marginLeft="@dimen/height_20"
+        android:layout_marginRight="@dimen/height_20"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txtNextRide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_15"
+            android:text="BOOK A NEW RIDE"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

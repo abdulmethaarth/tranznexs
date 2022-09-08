@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.webnexs.tranznexs.activity.LoginOptionActivity">
+
+    <!--<ImageView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"/>-->
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_above="@+id/option_layout_signin">
+        <AdapterViewFlipper
+            android:id="@+id/adapterViewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </AdapterViewFlipper>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/option_layout_signin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/height_20"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginRight="@dimen/font_20"
+        android:layout_above="@+id/option_layout_signup"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:background="@drawable/rounded_border">
+
+        <TextView
+            android:id="@+id/txt_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sign_in"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/option_layout_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginRight="@dimen/font_20"
+        android:background="@drawable/btn_accent_circle_white_outlined"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_14" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

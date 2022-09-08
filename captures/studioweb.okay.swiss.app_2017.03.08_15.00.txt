@@ -1,0 +1,247 @@
+TASK co.webnexs.homyapp id=142
+  ACTIVITY co.webnexs.homyapp/come.texi.user.PaymentTypeActivity 3f8acfe9 pid=28559
+    Local FragmentActivity 50bab9 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@16921f53
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@16921f53
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{2ef4d090 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{3528dd89 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{36dc418e G.E..... ... 0,0-0,0 #1020376}
+          android.widget.FrameLayout{39955daf V.E..... ... 0,48-720,1280}
+            android.support.v7.widget.FitWindowsLinearLayout{2b7e65bc V.E..... ... 0,0-720,1232 #7f110097 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{3338c945 G.E..... ... 0,0-0,0 #7f110098 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{cdee89a V.E..... ... 0,0-720,1232 #1020002 android:id/content}
+                android.widget.RelativeLayout{26e425cb V.E..... ... 0,0-720,1232}
+                  android.widget.LinearLayout{18aa21a8 V.E..... ... 30,362-690,870}
+                    android.widget.RelativeLayout{6a1b4c1 V.E..... ... 0,0-660,100 #7f110166 app:id/rl_price_view}
+                      android.widget.RelativeLayout{2632f466 V.E..... ... 66,25-593,74}
+                        android.support.v7.widget.AppCompatTextView{370d53a7 V.ED.... ... 0,0-527,49 #7f110167 app:id/tv_price_message}
+                    android.view.View{1a53b054 V.ED.... ... 0,100-660,102}
+                    android.widget.RelativeLayout{2a53dbfd V.E...C. ... 0,102-660,202 #7f110160 app:id/layout_cash_paypal}
+                      android.widget.RelativeLayout{3569f0f2 V.E..... ... 251,25-408,74}
+                        android.support.v7.widget.AppCompatImageView{12b18343 V.ED.... ... 0,5-38,43 #7f110161 app:id/img_paypal}
+                        android.support.v7.widget.AppCompatTextView{14657dc0 V.ED.... ... 48,0-157,49}
+                    android.view.View{1e073af9 V.ED.... ... 0,202-660,204}
+                    android.widget.RelativeLayout{12a22a3e V.E...C. ... 0,204-660,304 #7f110168 app:id/layout_brain_tree}
+                      android.widget.RelativeLayout{1df109f V.E..... ... 230,25-430,74}
+                        android.support.v7.widget.AppCompatImageView{3d04b5ec V.ED.... ... 0,5-38,43 #7f110169 app:id/img_cash_icon}
+                        android.support.v7.widget.AppCompatTextView{af78db5 V.ED.... ... 48,0-200,49}
+                    android.view.View{2792ac4a V.ED.... ... 0,304-660,306}
+                    android.widget.RelativeLayout{152e17bb V.E...C. ... 0,306-660,406 #7f110164 app:id/layout_cash}
+                      android.widget.RelativeLayout{257d44d8 V.E..... ... 265,25-395,74}
+                        android.support.v7.widget.AppCompatImageView{38605031 V.ED.... ... 0,5-38,43 #7f110165 app:id/img_cash}
+                        android.support.v7.widget.AppCompatTextView{10574316 V.ED.... ... 48,0-130,49}
+                    android.view.View{49c7497 V.ED.... ... 0,406-660,408}
+                    android.widget.RelativeLayout{25edd684 V.E...C. ... 0,408-660,508 #7f11016a app:id/layout_cash_cancel}
+                      android.support.v7.widget.AppCompatTextView{bb8be6d V.ED.... ... 263,25-397,74}
+        android.view.View{3cfc7aa2 V.ED.... ... 0,0-720,48 #102002f android:id/statusBarBackground}
+
+  ACTIVITY co.webnexs.homyapp/come.texi.user.activity.AllTripActivity 27a45679 pid=28559
+    Local FragmentActivity 34f87a0f State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@2029c333
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@2029c333
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{17b3d6f0 I.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{10afd469 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{1fcb9eee G.E..... ... 0,0-0,0 #1020376}
+          android.widget.FrameLayout{2e335f8f V.E..... ... 0,48-720,1280}
+            android.support.v7.widget.FitWindowsLinearLayout{a97721c V.E..... ... 0,0-720,1232 #7f110097 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{4e84e25 G.E..... ... 0,0-0,0 #7f110098 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{3456bbfa V.E..... ... 0,0-720,1232 #1020002 android:id/content}
+                com.jeremyfeinstein.slidingmenu.lib.SlidingMenu{139065ab V.E..... ... 0,0-720,1232}
+                  com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind{20b79408 I.E..... ... 0,0-720,1232}
+                    android.widget.RelativeLayout{2374a7a1 V.E..... ... 0,0-620,1232}
+                      android.widget.RelativeLayout{2b449dc6 V.E..... ... 0,0-620,0 #7f110283 app:id/layout_setting}
+                        android.support.v7.widget.AppCompatImageView{216db187 G.ED.... ... 0,0-0,0 #7f110284 app:id/img_setting}
+                      android.widget.RelativeLayout{3d35e8b4 V.E...C. ... 0,30-620,230 #7f110285 app:id/layout_user}
+                        android.widget.RelativeLayout{2c131cdd V.E..... ... 0,0-620,200}
+                          android.widget.RelativeLayout{6dcd052 V.E..... ... 60,20-220,180 #7f110286 app:id/layout_user_image}
+                            android.support.v7.widget.AppCompatImageView{1cf5df64 V.ED.... ... 20,20-140,140 #7f110287 app:id/img_user}
+                          android.widget.LinearLayout{24e9df23 V.E..... ... 250,58-620,142}
+                            android.support.v7.widget.AppCompatTextView{31a2dc20 V.ED.... ... 0,0-123,43 #7f110288 app:id/txt_user_name}
+                            android.support.v7.widget.AppCompatTextView{2229a9d9 V.ED.... ... 0,43-212,84 #7f110289 app:id/txt_user_number}
+                      android.view.View{34539f9e V.ED.... ... 0,290-620,292 #7f11028a app:id/view_id}
+                      android.widget.LinearLayout{14714a7f V.E..... ... 0,332-620,1032}
+                        android.widget.RelativeLayout{16299a4c V.E...C. ... 0,0-620,100 #7f11028b app:id/layout_book_my_trip}
+                          android.support.v7.widget.AppCompatImageView{3f820a95 V.ED.... ... 60,35-98,65 #7f11028c app:id/img_book_my_trip}
+                          android.support.v7.widget.AppCompatTextView{2dd617aa V.ED.... ... 128,29-239,70 #7f11028d app:id/txt_book_my_trip}
+                          android.support.v7.widget.AppCompatImageView{36da0f9b V.ED.... ... 574,32-590,68}
+                        android.widget.RelativeLayout{387c0f38 V.E...C. ... 0,100-620,200 #7f11028e app:id/layout_my_trip}
+                          android.support.v7.widget.AppCompatImageView{16c5bb11 V.ED.... ... 60,32-96,68 #7f11028f app:id/img_my_trip}
+                          android.support.v7.widget.AppCompatTextView{31560476 V.ED.... ... 126,29-300,70 #7f110290 app:id/txt_my_trip}
+                          android.support.v7.widget.AppCompatImageView{20400a77 V.ED.... ... 574,32-590,68}
+                        android.widget.RelativeLayout{d7ee6e4 V.E...C. ... 0,200-620,300 #7f110291 app:id/layout_rate_card}
+                          android.support.v7.widget.AppCompatImageView{21b9f74d V.ED.... ... 60,29-101,70 #7f110292 app:id/img_rate_card}
+                          android.support.v7.widget.AppCompatTextView{1815f202 V.ED.... ... 131,29-266,70 #7f11016b app:id/txt_rate_card}
+                          android.support.v7.widget.AppCompatImageView{20a0d713 V.ED.... ... 574,32-590,68}
+                        android.widget.RelativeLayout{11b58d50 V.E...C. ... 0,300-620,400 #7f110293 app:id/layout_cahnge_password}
+                          android.support.v7.widget.AppCompatImageView{373bbb49 V.ED.... ... 60,29-102,71 #7f110294 app:id/img_cahnge_password}
+                          android.support.v7.widget.AppCompatTextView{1af52c4e V.ED.... ... 132,29-374,70 #7f110295 app:id/txt_cahnge_password}
+                          android.support.v7.widget.AppCompatImageView{37d16f V.ED.... ... 574,32-590,68}
+                        android.widget.RelativeLayout{46e2e7c V.E...C. ... 0,400-620,500 #7f110296 app:id/layout_cahnge_mobile}
+                          android.support.v7.widget.AppCompatTextView{24fbc305 V.ED.... ... 132,29-448,70 #7f110297 app:id/txt_cahnge_mobile}
+                          android.support.v7.widget.AppCompatImageView{f7bbf5a V.ED.... ... 574,32-590,68}
+                          android.support.v7.widget.AppCompatImageView{259a158b V.ED.... ... 60,29-102,71 #7f110298 app:id/img_cahnge_mobile}
+                        android.widget.RelativeLayout{29adb668 V.E...C. ... 0,500-620,600 #7f110299 app:id/rl_my_reviews}
+                          android.support.v7.widget.AppCompatTextView{28fa8a81 V.ED.... ... 131,29-288,70 #7f11029a app:id/tv_my_reviews}
+                          android.support.v7.widget.AppCompatImageView{29a67726 V.ED.... ... 574,32-590,68}
+                          android.support.v7.widget.AppCompatImageView{1927f67 V.ED.... ... 60,29-101,70 #7f11029b app:id/iv_my_review}
+                        android.widget.RelativeLayout{3edbd114 V.E...C. ... 0,600-620,700 #7f11029c app:id/layout_footer_logout}
+                          android.view.View{6c44dbd V.ED.... ... 0,0-620,2}
+                          android.widget.RelativeLayout{e72dfb2 V.E..... ... 0,29-620,70 #7f11029d app:id/layout_logout}
+                            android.support.v7.widget.AppCompatImageView{1cbdab03 V.ED.... ... 60,0-96,36 #7f11029e app:id/img_logout}
+                            android.support.v7.widget.AppCompatTextView{e2eea80 V.ED.... ... 126,0-238,41 #7f11029f app:id/txt_sign_out}
+                  com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove{346d08b9 VFED.... ... 0,0-720,1232}
+                    android.widget.RelativeLayout{32b44fe V.E..... ... 0,0-720,1232}
+                      android.widget.RelativeLayout{22e5f45f V.E..... ... 0,0-720,100 #7f1100ab app:id/layout_header}
+                        android.widget.RelativeLayout{cd82eac V.E...C. ... 0,0-101,100 #7f1100ac app:id/layout_slidemenu}
+                          android.support.v7.widget.AppCompatImageView{1b4c7775 V.ED.... ... 30,34-71,66}
+                        android.support.v7.widget.AppCompatTextView{572b30a V.ED.... ... 287,25-432,75 #7f1100ad app:id/txt_all_trip}
+                        android.widget.RelativeLayout{81f777b V.E...C. ... 619,0-720,100 #7f1100ae app:id/layout_filter}
+                          android.support.v7.widget.AppCompatImageView{2fef8998 V.ED.... ... 30,31-71,69}
+                      android.widget.LinearLayout{287a15f1 V.E..... ... 0,100-720,1232 #7f1100af app:id/layout_recycleview}
+                        android.support.v4.widget.SwipeRefreshLayout{1810f5d6 V.ED.... ... 20,0-700,1132 #7f1100b0 app:id/swipe_refresh_layout}
+                          android.support.v4.widget.CircleImageView{23a41057 G.ED.... ... 300,-80-380,0}
+                          android.support.v7.widget.RecyclerView{241fa744 VFED.... F.. 0,0-680,1132 #7f1100b1 app:id/recycle_all_trip}
+                            android.widget.LinearLayout{2909202d V.E..... ... 0,0-680,425}
+                              android.widget.LinearLayout{107e9962 V.E...C. ... 0,20-680,405 #7f110201 app:id/layout_all_trip}
+                                android.widget.RelativeLayout{1c6f5af3 V.E..... ... 0,0-680,80}
+                                  android.support.v7.widget.AppCompatImageView{21e790f0 V.ED.... ... 20,29-41,50 #7f110202 app:id/img_status}
+                                  android.support.v7.widget.AppCompatTextView{1411f3b0 V.ED.... ... 51,23-277,56 #7f110203 app:id/txt_current_booking}
+                                  android.support.v7.widget.AppCompatImageView{2e049229 V.ED.... ... 459,20-499,60 #7f110204 app:id/img_calender_icon}
+                                  android.support.v7.widget.AppCompatTextView{3130e9ae V.ED.... ... 519,23-660,56 #7f110205 app:id/txt_trip_date}
+                                android.widget.LinearLayout{39ab34f V.E..... ... 0,80-680,385}
+                                  android.widget.RelativeLayout{299a9adc V.E..... ... 30,0-680,205}
+                                    android.support.v7.widget.AppCompatImageView{342b27e5 V.ED.... ... 0,43-19,161 #7f1101bb app:id/img_location_icon}
+                                    android.widget.LinearLayout{1ca5f2ba V.E..... ... 39,0-640,205}
+                                      android.widget.RelativeLayout{3879356b V.E..... ... 0,0-601,205}
+                                        android.support.v7.widget.AppCompatTextView{35a488c8 V.ED.... ... 0,0-601,82 #7f1101bc app:id/txt_pickup_address}
+                                        android.support.v7.widget.AppCompatImageView{b6b5d61 V.ED.... ... 0,102-601,103 #7f1101bd app:id/img_address_line}
+                                        android.support.v7.widget.AppCompatTextView{2d308086 V.ED.... ... 0,123-601,205 #7f1101be app:id/txt_drop_address}
+                                    android.widget.RelativeLayout{3273bd47 G.E..... ... 0,0-0,0 #7f110206 app:id/layout_status_cancle}
+                                      android.support.v7.widget.AppCompatImageView{2add6974 G.ED.... ... 0,0-0,0 #7f1100c6 app:id/img_driver_image}
+                                      android.support.v7.widget.AppCompatImageView{3a1f6e9d G.ED.... ... 0,0-0,0 #7f110207 app:id/img_cancle_status}
+                                  android.widget.RelativeLayout{3d841f12 V.E...C. ... 0,225-680,305 #7f110208 app:id/layout_footer_detail}
+                                    android.widget.RelativeLayout{ca4e6e3 V.E..... ... 0,23-232,56 #7f110209 app:id/layput_booking}
+                                      android.support.v7.widget.AppCompatTextView{1721a8e0 V.ED.... ... 30,0-173,33 #7f1100b8 app:id/txt_booking_id}
+                                      android.support.v7.widget.AppCompatTextView{18095799 V.ED.... ... 173,0-179,33 #7f11020a app:id/txt_booking_coma}
+                                      android.support.v7.widget.AppCompatTextView{2e011a5e V.ED.... ... 190,0-232,33 #7f1100b9 app:id/txt_booking_id_val}
+                                    android.widget.RelativeLayout{2f350e3f V.E..... ... 242,23-566,56}
+                                      android.support.v7.widget.AppCompatTextView{7a8730c V.ED.... ... 0,0-139,33 #7f1100c2 app:id/txt_truct_type}
+                                      android.support.v7.widget.AppCompatTextView{1d0ed455 V.ED.... ... 139,0-145,33 #7f11020c app:id/txt_truct_type_coma}
+                                      android.support.v7.widget.AppCompatTextView{32c07e6a V.ED.... ... 147,3-247,30 #7f1100c3 app:id/txt_truct_type_val}
+                                    android.widget.RelativeLayout{32764f5b V.E...C. ... 576,0-680,80 #7f11020b app:id/layout_detail}
+                                      android.widget.RelativeLayout{3efb3f8 V.E..... ... 10,13-94,67}
+                                        android.support.v7.widget.AppCompatImageView{1fb560d1 V.ED.... ... 4,0-80,26 #7f11020d app:id/img_arrow_white}
+                                        android.support.v7.widget.AppCompatTextView{36601736 V.ED.... ... 4,26-80,54}
+                            android.widget.LinearLayout{17c08637 V.E..... ... 0,425-680,845}
+                              android.widget.LinearLayout{b6817a4 V.E...C. ... 0,20-680,400 #7f110201 app:id/layout_all_trip}
+                                android.widget.RelativeLayout{3f5e390d V.E..... ... 0,0-680,80}
+                                  android.support.v7.widget.AppCompatImageView{6cc123 V.ED.... ... 20,29-41,50 #7f110202 app:id/img_status}
+                                  android.support.v7.widget.AppCompatTextView{1d8e70c2 V.ED.... ... 51,23-277,56 #7f110203 app:id/txt_current_booking}
+                                  android.support.v7.widget.AppCompatImageView{340d4ed3 V.ED.... ... 459,20-499,60 #7f110204 app:id/img_calender_icon}
+                                  android.support.v7.widget.AppCompatTextView{1e10a10 V.ED.... ... 519,23-660,56 #7f110205 app:id/txt_trip_date}
+                                android.widget.LinearLayout{36425909 V.E..... ... 0,80-680,380}
+                                  android.widget.RelativeLayout{3756d70e V.E..... ... 30,0-680,200}
+                                    android.support.v7.widget.AppCompatImageView{2854052f V.ED.... ... 0,41-19,159 #7f1101bb app:id/img_location_icon}
+                                    android.widget.LinearLayout{36b4b73c V.E..... ... 39,18-640,182}
+                                      android.widget.RelativeLayout{f2e7cc5 V.E..... ... 0,0-601,164}
+                                        android.support.v7.widget.AppCompatTextView{262d561a V.ED.... ... 0,0-601,82 #7f1101bc app:id/txt_pickup_address}
+                                        android.support.v7.widget.AppCompatImageView{3a5c54b V.ED.... ... 0,102-601,103 #7f1101bd app:id/img_address_line}
+                                        android.support.v7.widget.AppCompatTextView{32b40b28 V.ED.... ... 0,123-280,164 #7f1101be app:id/txt_drop_address}
+                                    android.widget.RelativeLayout{3aff2041 G.E..... ... 0,0-0,0 #7f110206 app:id/layout_status_cancle}
+                                      android.support.v7.widget.AppCompatImageView{dbab9e6 G.ED.... ... 0,0-0,0 #7f1100c6 app:id/img_driver_image}
+                                      android.support.v7.widget.AppCompatImageView{2b096b27 G.ED.... ... 0,0-0,0 #7f110207 app:id/img_cancle_status}
+                                  android.widget.RelativeLayout{38d2b1d4 V.E...C. ... 0,220-680,300 #7f110208 app:id/layout_footer_detail}
+                                    android.widget.RelativeLayout{1dc7f7d V.E..... ... 0,23-232,56 #7f110209 app:id/layput_booking}
+                                      android.support.v7.widget.AppCompatTextView{11688e72 V.ED.... ... 30,0-173,33 #7f1100b8 app:id/txt_booking_id}
+                                      android.support.v7.widget.AppCompatTextView{231792c3 V.ED.... ... 173,0-179,33 #7f11020a app:id/txt_booking_coma}
+                                      android.support.v7.widget.AppCompatTextView{25931740 V.ED.... ... 190,0-232,33 #7f1100b9 app:id/txt_booking_id_val}
+                                    android.widget.RelativeLayout{c369679 V.E..... ... 242,23-566,56}
+                                      android.support.v7.widget.AppCompatTextView{2fad1fbe V.ED.... ... 0,0-139,33 #7f1100c2 app:id/txt_truct_type}
+                                      android.support.v7.widget.AppCompatTextView{1756981f V.ED.... ... 139,0-145,33 #7f11020c app:id/txt_truct_type_coma}
+                                      android.support.v7.widget.AppCompatTextView{1932676c V.ED.... ... 147,3-247,30 #7f1100c3 app:id/txt_truct_type_val}
+                                    android.widget.RelativeLayout{3f812135 V.E...C. ... 576,0-680,80 #7f11020b app:id/layout_detail}
+                                      android.widget.RelativeLayout{61779ca V.E..... ... 10,13-94,67}
+                                        android.support.v7.widget.AppCompatImageView{3b56973b V.ED.... ... 4,0-80,26 #7f11020d app:id/img_arrow_white}
+                                        android.support.v7.widget.AppCompatTextView{18948e58 V.ED.... ... 4,26-80,54}
+                            android.widget.LinearLayout{2aaf9bb1 V.E..... ... 0,845-680,1270}
+                              android.widget.LinearLayout{a1b6896 V.E...C. ... 0,20-680,405 #7f110201 app:id/layout_all_trip}
+                                android.widget.RelativeLayout{218d6c17 V.E..... ... 0,0-680,80}
+                                  android.support.v7.widget.AppCompatImageView{162000e4 V.ED.... ... 20,29-41,50 #7f110202 app:id/img_status}
+                                  android.support.v7.widget.AppCompatTextView{10f03804 V.ED.... ... 51,23-311,56 #7f110203 app:id/txt_current_booking}
+                                  android.support.v7.widget.AppCompatImageView{3e7141ed V.ED.... ... 459,20-499,60 #7f110204 app:id/img_calender_icon}
+                                  android.support.v7.widget.AppCompatTextView{29d7822 V.ED.... ... 519,23-660,56 #7f110205 app:id/txt_trip_date}
+                                android.widget.LinearLayout{23f2b2b3 V.E..... ... 0,80-680,385}
+                                  android.widget.RelativeLayout{2a3ad070 V.E..... ... 30,0-680,205}
+                                    android.support.v7.widget.AppCompatImageView{d2d0fe9 V.ED.... ... 0,43-19,161 #7f1101bb app:id/img_location_icon}
+                                    android.widget.LinearLayout{e3ef46e V.E..... ... 39,0-520,205}
+                                      android.widget.RelativeLayout{3a5bc70f V.E..... ... 0,0-481,205}
+                                        android.support.v7.widget.AppCompatTextView{1454839c V.ED.... ... 0,0-481,82 #7f1101bc app:id/txt_pickup_address}
+                                        android.support.v7.widget.AppCompatImageView{ebdc1a5 V.ED.... ... 0,102-481,103 #7f1101bd app:id/img_address_line}
+                                        android.support.v7.widget.AppCompatTextView{269e97a V.ED.... ... 0,123-481,205 #7f1101be app:id/txt_drop_address}
+                                    android.widget.RelativeLayout{1a97c52b V.E..... ... 530,52-630,152 #7f110206 app:id/layout_status_cancle}
+                                      android.support.v7.widget.AppCompatImageView{3e094d V.ED.... ... 0,0-100,100 #7f1100c6 app:id/img_driver_image}
+                                      android.support.v7.widget.AppCompatImageView{3af43d88 G.ED.... ... 0,0-0,0 #7f110207 app:id/img_cancle_status}
+                                  android.widget.RelativeLayout{23edd321 V.E...C. ... 0,225-680,305 #7f110208 app:id/layout_footer_detail}
+                                    android.widget.RelativeLayout{2f1d2346 V.E..... ... 0,23-232,56 #7f110209 app:id/layput_booking}
+                                      android.support.v7.widget.AppCompatTextView{3e4b8907 V.ED.... ... 30,0-173,33 #7f1100b8 app:id/txt_booking_id}
+                                      android.support.v7.widget.AppCompatTextView{c53aa34 V.ED.... ... 173,0-179,33 #7f11020a app:id/txt_booking_coma}
+                                      android.support.v7.widget.AppCompatTextView{15b3805d V.ED.... ... 190,0-232,33 #7f1100b9 app:id/txt_booking_id_val}
+                                    android.widget.RelativeLayout{13782dd2 V.E..... ... 242,23-566,56}
+                                      android.support.v7.widget.AppCompatTextView{2a8daea3 V.ED.... ... 0,0-139,33 #7f1100c2 app:id/txt_truct_type}
+                                      android.support.v7.widget.AppCompatTextView{3e9b35a0 V.ED.... ... 139,0-145,33 #7f11020c app:id/txt_truct_type_coma}
+                                      android.support.v7.widget.AppCompatTextView{c2cc559 V.ED.... ... 147,3-247,30 #7f1100c3 app:id/txt_truct_type_val}
+                                    android.widget.RelativeLayout{f07551e V.E...C. ... 576,0-680,80 #7f11020b app:id/layout_detail}
+                                      android.widget.RelativeLayout{154291ff V.E..... ... 10,13-94,67}
+                                        android.support.v7.widget.AppCompatImageView{e0bcc V.ED.... ... 4,0-80,26 #7f11020d app:id/img_arrow_white}
+                                        android.support.v7.widget.AppCompatTextView{395b5e15 V.ED.... ... 4,26-80,54}
+                      android.widget.RelativeLayout{1bcfa52a G.E..... ... 0,0-0,0 #7f1100b2 app:id/layout_no_recourd_found}
+                        android.support.v7.widget.AppCompatTextView{4384f1b V.ED.... ... 0,0-0,0}
+                      android.widget.RelativeLayout{3df618b8 G.E..... ... 0,0-0,0 #7f1100b3 app:id/layout_background}
+        android.view.View{33a0c691 V.ED.... ... 0,0-720,48 #102002f android:id/statusBarBackground}
+
+  ACTIVITY co.webnexs.homyapp/come.texi.user.LoginOptionActivity 1b8d9469 pid=28559
+    Local FragmentActivity ae759c4 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@1d1ae9f6
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@1d1ae9f6
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{202c1f7 I.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{2e500864 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{3bfa3acd G.E..... ... 0,0-0,0 #1020376}
+          android.widget.FrameLayout{f03af82 V.E..... ... 0,48-720,1280}
+            android.support.v7.widget.FitWindowsLinearLayout{4978693 V.E..... ... 0,0-720,1232 #7f110097 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{83746d0 G.E..... ... 0,0-0,0 #7f110098 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{2bfcb6c9 V.E..... ... 0,0-720,1232 #1020002 android:id/content}
+                android.widget.RelativeLayout{22c141ce V.E...C. ... 0,0-720,1232 #7f11014f app:id/layout_option_main}
+                  android.support.v7.widget.AppCompatImageView{2a332abf V.ED.... ... 0,0-720,1232 #7f110107 app:id/img_background}
+                  android.support.v7.widget.AppCompatImageView{21a9f8ef V.ED.... ... 0,0-720,1232}
+                  android.widget.LinearLayout{1711fffc V.E..... ... 0,139-720,1093}
+                    android.support.v7.widget.AppCompatImageView{1d89958c V.ED.... ... 242,60-478,403 #7f11010b app:id/img_logo}
+                    android.widget.RelativeLayout{790f685 V.E...C. ... 160,463-560,536 #7f110150 app:id/layout_new_user_signup}
+                      android.support.v7.widget.AppCompatTextView{13b3acda V.ED.... ... 48,20-351,53 #7f110151 app:id/txt_new_user_signup}
+                    android.widget.RelativeLayout{2cc7350b V.E...C. ... 160,576-560,649 #7f11014b app:id/layout_signin}
+                      android.support.v7.widget.AppCompatTextView{147d1fe8 V.ED.... ... 157,20-242,53 #7f11014c app:id/txt_signin}
+                    android.widget.RelativeLayout{12fbca6 V.E..... ... 60,709-660,752}
+                      android.support.v7.widget.AppCompatImageView{1b3216e7 V.ED.... ... 0,21-600,22}
+                      android.support.v7.widget.AppCompatTextView{34f85294 V.ED.... ... 191,0-409,43 #7f110152 app:id/txt_sign_in_with}
+                    android.widget.LinearLayout{295c713d V.E..... ... 60,812-660,894}
+                      android.support.v7.widget.AppCompatImageView{97f3a83 V.ED.... ... 0,0-150,0}
+                      android.support.v7.widget.AppCompatImageView{356d84d5 V.ED..C. ... 150,0-300,82 #7f110153 app:id/img_facebook}
+                      android.support.v7.widget.AppCompatImageView{1879b3db V.ED..C. ... 300,0-450,82 #7f110154 app:id/img_twitter}
+                      android.support.v7.widget.AppCompatImageView{13520400 V.ED.... ... 450,0-600,0}
+                  android.widget.RelativeLayout{f23e439 G.E..... ... 0,0-0,0 #7f1102cd app:id/rlMainView}
+                    android.support.v7.widget.AppCompatTextView{1ee7ba7e V.ED.... ... 0,0-0,0 #7f1102ce app:id/tvTitle}
+        android.view.View{3ef0fbdf V.ED.... ... 0,0-720,48 #102002f android:id/statusBarBackground}

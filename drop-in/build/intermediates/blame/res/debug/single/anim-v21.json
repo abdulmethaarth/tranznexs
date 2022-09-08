@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

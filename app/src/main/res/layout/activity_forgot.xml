@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_20"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/app_icon"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/txt_for_pass_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_30"
+            android:text="@string/forgot_password_logo"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_for_pass_logo"
+            android:layout_marginTop="@dimen/margin_30"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/edit_country_code"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:text="+91"
+                        android:gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="@dimen/margin_10"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_16" />
+
+                    <EditText
+                        android:id="@+id/et_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColor="@color/white"
+                        android:hint="Mobile Number"
+                        android:layout_alignParentRight="true"
+                        android:textSize="@dimen/font_16"
+                        android:inputType="number"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="@color/black"
+                        android:singleLine="true"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/textbox_bottom_line"
+                android:layout_marginTop="@dimen/margin_10"
+                android:scaleType="fitXY"/>
+
+
+            <RelativeLayout
+                android:id="@+id/layout_retrive_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_border"
+                android:layout_marginTop="@dimen/margin_30"
+                android:padding="@dimen/margin_10"
+                android:minWidth="@dimen/height_200"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_retrive_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_15"
+                    android:text="@string/retrive_password"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_marginLeft="@dimen/margin_5"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/layout_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navigation_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_15"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_below="@id/header"
+        android:id="@+id/otpLayout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/font_16"
+        android:paddingLeft="@dimen/font_16"
+        android:paddingRight="@dimen/font_16"
+        android:paddingTop="@dimen/font_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Please enter 6 digit password"
+            android:textColor="@color/black"/>
+
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/forgotOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:inputType="number"
+            android:maxLength="6"
+            app:pinLineColors="@color/black"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/font_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/cab_icon"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/height_45"
+                    android:layout_height="@dimen/height_45"
+                    android:src="@drawable/base_car_color"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/font_10"
+                        android:text="Volkswagen kinsmart"/>
+
+                    <TextView
+                        android:id="@+id/bikeTyep"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/font_10"
+                        android:text="basic"/>
+
+                    <TextView
+                        android:id="@+id/bike_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/font_10"
+                        android:text="basic"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dateTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wed,Nov 27,07.53pm"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/driver_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ID:235tdf564435"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:textSize="@dimen/font_10"
+                        />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/driverImg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/unknown_driver" />
+
+                    <ImageView
+                        android:id="@+id/img_status"
+                        android:layout_width="@dimen/height_50"
+                        android:layout_height="@dimen/height_50"
+                        android:src="@drawable/cancelled_stemp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_10"
+            android:layout_marginRight="10dp"
+            >
+            <ImageView
+                android:id="@+id/img_location_icon"
+                android:layout_width="10dp"
+                android:layout_height="@dimen/height_45"
+                android:background="@drawable/edt_txt_location"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/img_location_icon">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/margin_5">
+
+                        <TextView
+                            android:id="@+id/from_Location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_10"
+                            android:text="20 Serra mall, Stanford, CA 9bhsv js jjs sjdvjvjsdvsdvjvsbvsvbsuvsvsubvsvb"
+                            android:maxLines="1"
+                            android:textColor="@color/dark_gray"/>
+
+                        <ImageView
+                            android:id="@+id/img_address_line"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/address_seprator"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_below="@+id/from_Location"/>
+
+                        <TextView
+                            android:id="@+id/to_Location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_10"
+                            android:text="20 Serra mall, Stanford, CA 9bhsv js jjs sjdvjvjsdvsdvjvsbv"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_below="@+id/img_address_line"
+                            android:maxLines="1"
+                            android:textColor="@color/dark_gray"/>
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:id="@+id/name_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/driver_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jhon mathew"
+                            android:textSize="@dimen/font_10"/>
+
+                        <TextView
+                            android:id="@+id/fareAmount"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="$ 17"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/top_radius_white"
+        android:id="@+id/dialogBody"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/cancelResonCancelBtn"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cancel_booking_pop"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/com_facebook_close"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/font_16"
+            android:layout_marginTop="@dimen/font_16"
+            android:background="@color/label_gray_light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/height_20"
+            android:layout_marginRight="@dimen/height_20">
+
+            <TextView
+                android:id="@+id/changed_mindset"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:gravity="center_vertical"
+                android:text="Changed mind."
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/afraid_to_Travel"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:text="Afraid to travel."
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/just_Dont_go"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:text="Just don’t want to go."
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/rude_call"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:text="Driver rude at Call."
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/driver_late"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:paddingLeft="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:text="Driver late."
+                android:layout_marginBottom="@dimen/margin_10"
+                android:textColor="@color/black"/>
+
+            <!--<LinearLayout
+                android:id="@+id/edt_personal_issue_layout"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edt_personal_issues"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/round_corner"
+                    android:layout_height="@dimen/height_40"
+                    android:hint="What's your problem..?"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/height_160"
+                    android:background="@color/pass_gray_light"/>
+            </LinearLayout>-->
+
+            <TextView
+                android:id="@+id/cencel_reason_done"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_40"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:gravity="center"
+                android:text="Done"
+                android:visibility="gone"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="co.webnexs.tranznexs"
+    android:targetSandboxVersion="1"
+    tools:targetApi="p">
+
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".utils.TwitterApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.SingleTripDetailsActivity"></activity>
+        <activity android:name=".activity.LoginOptionActivity" />
+        <activity android:name=".activity.Payments" />
+        <activity android:name=".activity.Faq" />
+        <activity android:name=".activity.Emergency_contact" />
+        <activity android:name=".activity.AboutActivity" /> <!-- <activity android:name="come.texi.user.MainActivity"></activity> -->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path"></meta-data>
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/> <!-- android:supportsRtl="false" -->
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_KP8LpbANErbhYE"
+            /><!--Razorpay key-->
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"> <!-- android:theme="@style/Theme.Transparent" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BookingDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.OneTimePasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrackTruckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AllTripActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RateCardActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="#99000000" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/black">
+
+        <RelativeLayout
+            android:id="@+id/layout_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_40"
+            android:layout_marginTop="@dimen/height_20"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nevigation_arrow_right" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/edit_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="@dimen/margin_15">
+
+            <TextView
+               android:id="@+id/edit_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+               android:text="Edit"
+                android:drawableTop="@drawable/ic_edit_pencil"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/height_100"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="@dimen/font_10"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/height_60"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/height_20"
+                android:layout_marginRight="@dimen/height_20">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColorHint="@color/dark_gray">
+
+                    <EditText
+                        android:id="@+id/fname"
+                        android:background="@drawable/rounded_border_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_40"
+                        android:hint="Name"
+                        android:gravity="center"
+                        android:imeOptions="actionUnspecified"
+                        android:maxLines="1"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/height_20"
+                        android:textColor="@color/black"
+                        android:inputType="textVisiblePassword" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:text="PERSONAL INFO"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/dark_gray">
+                    <EditText
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:id="@+id/lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Last name"
+                        android:imeOptions="actionUnspecified"
+                        android:maxLines="1"
+                        android:textSize="@dimen/height_15"
+                        android:textColor="@color/black"
+                        android:inputType="textVisiblePassword" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email "
+                    android:clickable="false"
+                    android:textSize="@dimen/height_15"
+                    android:textColor="@color/black"
+                    android:inputType="textEmailAddress" />
+                </android.support.design.widget.TextInputLayout>
+
+                <!--<android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/height_15"
+                    android:inputType="textVisiblePassword" />
+                </android.support.design.widget.TextInputLayout>-->
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/dark_gray">
+                <EditText
+                    android:id="@+id/mobNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile Number"
+                    android:inputType="number"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textSize="@dimen/height_15"
+                    android:textColor="@color/black"
+                    />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/layout_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_40"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_marginBottom="@dimen/height_20"
+                    android:background="@drawable/rounded_border"
+                    android:minWidth="@dimen/height_200"
+                    android:padding="@dimen/margin_10">
+
+                    <TextView
+                        android:id="@+id/txt_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/save"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_14" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_img"
+        android:layout_width="@dimen/height_120"
+        android:layout_height="@dimen/height_120"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/height_25"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="0.5dp"
+        app:civ_border_color="#FF000000"
+        android:src="@drawable/mail_defoult" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+

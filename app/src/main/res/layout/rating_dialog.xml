@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/camera_dialog_border"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/height_40">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_70">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_18"
+                android:text="Rate your Driver"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_15"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#60000000"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+        <co.webnexs.tranznexs.utils.SimpleRatingBar
+            android:id="@+id/userRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srb_starSize="@dimen/height_30"
+            app:srb_numberOfStars="5"
+            app:srb_stepSize="1"
+            app:srb_borderColor="@color/black"
+            app:srb_starBorderWidth="2"
+            app:srb_fillColor="@color/black"
+            android:layout_gravity="center"
+            app:srb_isIndicator="false"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/margin_10"
+            />
+
+        <EditText
+            android:id="@+id/feedBack"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:maxLines="10"
+            android:layout_margin="@dimen/margin_10"
+            android:hint="Feedback.."
+            android:layout_height="@dimen/height_50"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:background="@drawable/review_textbox_border"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="@dimen/font_15"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:background="@drawable/rounded_border"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/done"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/margin_10"
+            android:text="DONE"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

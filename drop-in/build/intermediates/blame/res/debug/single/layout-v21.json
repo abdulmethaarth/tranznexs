@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/techintegrityservicesimac/Documents/Android_Workspace/Everestcabs/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/techintegrity/Documents/Android_Workspace/OkaySwiss/drop-in/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

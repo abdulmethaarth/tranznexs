@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:id="@+id/payment_dialog_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/top_radius_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_18"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/payment_type"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:id="@+id/deb_crd_card_layout"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/height_20"
+                android:layout_marginRight="@dimen/height_20"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_height="@dimen/height_40"
+                android:layout_centerInParent="true">
+
+
+                <TextView
+                    android:id="@+id/payment_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_18"
+                    android:layout_centerVertical="true"
+                    android:text="@string/debit_card"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_centerInParent="true"
+                android:id="@+id/layout_cash"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/height_20"
+                android:layout_marginRight="@dimen/height_20"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_height="@dimen/height_40">
+
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_18"
+                        android:layout_centerVertical="true"
+                        android:text="@string/popup_cash"
+                        android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="CANCEL"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_18" />
+
+            </RelativeLayout>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

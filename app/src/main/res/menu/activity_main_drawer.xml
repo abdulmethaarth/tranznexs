@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:title="@string/my_acc" />
+        <item
+            android:id="@+id/payments"
+            android:title="@string/payments" />
+        <item
+            android:id="@+id/your_ride"
+            android:title="@string/your_ride" />
+
+        <item
+            android:id="@+id/rate_card"
+            android:title="Rate Card" />
+
+        <item
+            android:id="@+id/emergency_contact"
+            android:title="@string/emergency_contact" />
+        <item
+            android:id="@+id/faq"
+            android:title="FAQ" />
+
+        <item
+            android:id="@+id/change_pass"
+            android:title="@string/Change_password_screen" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="@string/sign_out" />
+    </group>
+
+</menu>
